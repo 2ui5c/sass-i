@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+    "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "Luis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ui5c/sass-i.git"
+  },
+  "author": "Luis Cardozo",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ui5c/sass-i/issues"
+  },
+  "homepage": "https://github.com/2ui5c/sass-i#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
